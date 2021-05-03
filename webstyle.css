@@ -1,0 +1,212 @@
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color: #fdfdfd;
+}
+
+/*global*/
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+#main{
+  background:url("uwuw.GIF");
+  background-repeat:no-repeat;
+  background-size: cover;
+  text-align:center;
+}
+
+h3{
+  font-style: italic;
+  font-family: sans-serif;
+}
+
+
+ul{
+  margin:0;
+  padding:0;
+}
+#opop{
+  font-style: italic;
+  font-family: sans-serif;
+  font-size: 20px;}
+
+.button01{
+  height:38px;
+  background:
+  border:0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #181616;
+}
+/*header*/
+header{
+  background:#6495ED;
+  color:#FAFAD2;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#ffffff 3px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #brand{
+  float:left;
+}
+
+header #brand h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .current a{
+  color:#181616;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight: bold;
+}
+
+/*showcase*/
+#showcase{
+  min-height:780px;
+  background:url("wawa.GIF");
+  background-repeat:no-repeat;
+  background-size: cover;
+  right: 50%;
+  text-align:center;
+  color:black;
+}
+
+.ayam{
+  color: black;
+  font-style: italic;
+  font-family: sans-serif;
+}
+
+#atas{
+  text-align:
+
+}
+
+#showcase h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+
+#showcase p{
+  font-size:20px;
+}
+
+/*newssheet*/
+#newssheet{
+  padding: 15px;
+  color: #ffffff;
+  background: #708090;
+}
+
+#newssheet h1{
+  float: right;
+}
+
+#newssheet form{
+  float: left;
+  margin-top: 15px;
+}
+
+#newssheet input{
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+
+
+
+/*boxes*/
+#boxes{
+  min-height:450px;
+  margin-top: 20px;
+  background:url("wkwkwk.GIF");
+  background-repeat:no-repeat;
+  background-size: cover;
+  right: 50%;
+  text-align:center
+}
+
+#boxes .box{
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+#boxes .box img{
+  width:120px;
+}
+
+.wala{
+  color: black;
+  font-style: italic;
+  font-family: sans-serif;
+}
+
+
+/*sidebar*/
+aside#siderbar{
+  float:right;
+  width: 20%;
+  margin-top: 10px;
+}
+
+/*main-col*/
+article#main-col{
+  float: left;
+  width: 65%;
+}
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #6495ED;
+  text-align: center;
+}
+
+.pomal01{
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+
+}
+
+
+.pomal02{
+  width: 300px;
+  height: 300px;
+  left: 30%;
+  top: 30%;
+}
+
+.word{
+
+}

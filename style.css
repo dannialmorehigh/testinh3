@@ -1,0 +1,106 @@
+body {
+  background-image: url("kikik.JPG");
+  display: grid;
+  place-items: center;
+  height: 140vh;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.drag {
+  width: 250px;
+  height: 250px;
+  margin: 30px;
+  padding: 10px;
+  border: 1px solid white;
+}
+
+h2{font-style:italic;
+  font-family: sans-serif;}
+
+h3{font-style: italic}
+
+#left{
+  margin: 0;
+}
+
+#name{
+  font-size: 2em;
+  font-family: sans-serif;
+}
+
+.container01{
+  position:absolute;
+}
+
+.container02{
+  position: absolute;
+  left: 80%;
+}
+
+.card {
+
+  background: #fdfdfd;
+  border-radius: 4px;
+  height: 100vh;
+  width: 35vw;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  overflow: hidden;
+  background-image: url("loplop.JPEG");
+  background-size: cover;
+}
+
+.card * {
+  transition: all 0.5s ease-in-out;
+}
+
+@media only screen and (max-width: 640px) {
+  .card{
+    flex-direction: row-reverse;
+  }
+
+.card img.blue {
+  width: 100%;
+  max-width: 50vw;
+  max-height: 40ch;
+}
+
+.text{
+  padding: 1ev;
+}
+
+img.blue.jpeg {
+  max.height: 20vh;
+}
+
+.muted{
+  opacity: 0.8;
+}
+
+.space{
+  height: 100px;
+}
+
+#drag01{
+  margin-top: 10px;
+  padding: 10px;
+}
+
+#drag02{
+  margin-right: 10px;
+  padding: 10px;
+}
+
+img{
+  width: 100px;
+  height: 100px;
+}
+
+p{font-style: italic;}
